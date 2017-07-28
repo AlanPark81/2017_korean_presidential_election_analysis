@@ -3,6 +3,7 @@ from numpy import genfromtxt
 import pandas
 
 
+
 raw_data=genfromtxt('PrElecData1.csv', delimiter=',')
 
 dataframe=pandas.DataFrame(raw_data)
